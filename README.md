@@ -17,7 +17,7 @@ breaks the picture in every signature in the company at once.
 | `20 Years IN.png` | Facility banner — Angola |
 | `20 Years FL.png` | Facility banner — Edgewater |
 | `signature-promo-current.png` | **The live promotion strip.** Replace this file to change or remove the promotion. Currently the blank. |
-| `signature-promo-blank.png` | A transparent 1200×300. Copy it over `signature-promo-current.png` to take a promotion down. |
+| `signature-promo-blank.png` | A transparent **1200×2**. Copy it over `signature-promo-current.png` to take a promotion down. ⚠ Deliberately 2px tall, not 300: the email fixes the width and lets the height follow, so a blank at full height would leave 150px of empty space under every signature. At 1200×2 it collapses to a 1px hairline. |
 | `signature-promo-TEMPLATE.svg` | Illustrator template for building a new strip. 1200×300, ASC logo embedded, safe-area guide included. |
 | `signature-promo-GIMP-background.png` | The same layout flattened, for building the strip in GIMP instead. |
 
